@@ -112,14 +112,16 @@ Enable the virtual host
 #### Utilize mod_wsgi
 In ```/var/www/catproj```, create the catproject.wsgi file 
 Add these lines
-```#!/usr/bin/python
+```
+#!/usr/bin/python
 import sys
 import logging
 logging.basicConfig(stream=sys.stderr)
 sys.path.insert(0,"/var/www/catproj/")
 
 from catproj import app as application
-application.secret_key = 'super_secret_key' ```
+application.secret_key = 'super_secret_key' 
+```
 
 
 ##### Configure OAuth for Google log in
