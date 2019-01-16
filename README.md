@@ -88,7 +88,8 @@ Change the name of project.py to __init__.py
 #### Configure Virtual Host
 Configure the virtual host with the name of the server, where the WSGIScript should be fetched from, where the directory of the files is, and various other configurations.
 ```sudo nano /etc/apache2/sites-available/catproj.conf```
-```<VirtualHost *:80>
+```
+<VirtualHost *:80>
 		ServerName 3.89.241.137.xip.io
 		ServerAdmin admin@3.89.241.137
 		WSGIScriptAlias / /var/www/catproj/catproject.wsgi
