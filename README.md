@@ -105,7 +105,8 @@ Configure the virtual host with the name of the server, where the WSGIScript sho
 		ErrorLog ${APACHE_LOG_DIR}/error.log
 		LogLevel warn
 		CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>```
+</VirtualHost>
+```
 Enable the virtual host
 ```sudo a2ensite catproj```
 #### Utilize mod_wsgi
