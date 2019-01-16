@@ -49,7 +49,8 @@ Grader can now be accessed using
 ##### Check password authentication
 To allow for proper login of users, run  
 ```sudo nano /etc/ssh/sshd_config```  
-PasswordAuthentication should be set to no  
+PasswordAuthentication should be set to no 
+PermitRootLogin should be set to no to disable remote root login 
 
 #### Configure timezone
 ```sudo dpkg-reconfigure tzdata```  
