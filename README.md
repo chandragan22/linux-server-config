@@ -84,7 +84,7 @@ In order to install all necessary programs, install pip
 ```sudo apt-get install python-pip```
 Install all other programs such as Flask using
 ```sudo pip install Flask```
-Change the name of project.py to __init__.py
+Change the name of ```project.py``` to ```__init__.py```
 #### Configure Virtual Host
 Configure the virtual host with the name of the server, where the WSGIScript should be fetched from, where the directory of the files is, and various other configurations.
 ```sudo nano /etc/apache2/sites-available/catproj.conf```
@@ -131,7 +131,7 @@ Copy the contents from the downloaded client_secrets file into the client_secret
 Update the clientID in the login.html page with the updated clientID
 
 ##### Configure python files to use PostgreSQL
-Use PostgreSQL in database_setup.py and __init__.py with these lines
+Use PostgreSQL in ```database_setup.py``` and ```__init__.py``` with these lines
 
 Run ```sudo service apache2 restart```
 
